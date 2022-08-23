@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinkes}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header start -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--right side div-->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errcss">
+                            <img src="images/img1.svg" alt="smaile" class="img-fluid" title="my image" >
+                        </figure>
+                    
+                        <p>{{errMsg}}</p>
+                        <h2>Click The Below<span  class="text_clr">Button </span>  And Go To Home</h2>
+                        <a href="/" target="_abhisek"><button>Go To Home</button></a>
+                    </div>
+                    <!--left side div-->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main header end -->
+    {{>footer}}
+</body>
+</html>
